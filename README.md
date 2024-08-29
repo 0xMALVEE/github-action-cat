@@ -30,7 +30,7 @@ jobs:
     steps:
     - run: echo -n -e "HELLO\n !\n World!" > text.txt
 
-    - uses: pCYSl5EDgo/cat@master
+    - uses: TarasMazepa/github-action-cat
       id: hello
       with:
         path: text.txt
